@@ -15,7 +15,7 @@ import org.springframework.data.elasticsearch.repository.config.EnableElasticsea
 
 @Configuration //anotação que fala ao Spring como criar objetos
 //onde o spring vai buscar os repositories
-@EnableElasticsearchRepositories(basePackages = "on.digitalinnovation.experts.productcatalog.repository")
+
 public class ElasticSearchConfig extends AbstractElasticsearchConfiguration {
 
     @Override
