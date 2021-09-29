@@ -20,10 +20,10 @@ public class ProductController {
         return  productRepository.save(product);
     }
 
-//    @RequestMapping(value = "/{id}", method = RequestMethod.GET)
-//    Optional<Product> findById(@PathVariable Integer id){
-//        return productRepository.findById(id);
-//
-//    }
+    @RequestMapping(value = "/{id}", method = RequestMethod.GET)
+    Optional<Product> findById(@PathVariable Integer id){
+        return productRepository.findById(id);
+
+    }
 
 }
