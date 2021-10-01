@@ -11,7 +11,7 @@ public class Product {
 
     private String name;
 
-    private  Integer aumont;
+    private  Integer amount;
 
     public Long getId() {
         return id;
@@ -30,10 +30,10 @@ public class Product {
     }
 
     public Integer getAumont() {
-        return aumont;
+        return amount;
     }
 
     public void setAumont(Integer aumont) {
-        this.aumont = aumont;
+        this.amount = aumont;
     }
 }
